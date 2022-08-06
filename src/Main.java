@@ -7,11 +7,23 @@ public class Main {
         } else {
             System.out.println("Установите приложение для iOS");
         }
-        int clientDeviceYear = 2017;
+        int clientDeviceYear = 2010;
         if (clientDeviceYear < 2015) {
             System.out.println("Установите облегчённую версию приложения");
         //}else{
             //System.out.println("Установите приложение для Android");
+        }
+        // задача 3
+
+        int year = 2080;
+
+        if ((year % 4 == 0) && year % 100 != 0){
+            System.out.println(year + " год високосный");
+        } else if ((year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0))
+      {
+     System.out.println(year + " год високосный");
+       } else {
+     System.out.println(year + " год не високосный");
         }
     }
 }
