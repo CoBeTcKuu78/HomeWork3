@@ -35,7 +35,7 @@ public class Main {
         {
             deliveryDays = 1;
         } else {
-            deliveryDays = deliveryDays + (int) Math.ceil(deliveryDistance - startInterval) / interval + 1;
+            deliveryDays = deliveryDays + (int) Math.ceil((deliveryDistance - startInterval) / (double) interval);
             System.out.println( "Потребуется дней " + deliveryDays);
             // очень сложно, так и не понял как делать эту задачу, помогло видел по разбору ЗД (пришлось подсматривать)
         }
