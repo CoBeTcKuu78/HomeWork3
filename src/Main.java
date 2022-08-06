@@ -27,7 +27,7 @@ public class Main {
         }
 
         //задача 4
-        int deliveryDistance = 630;
+        int deliveryDistance = 745;
         int deliveryDays = 1;
         int interval = 40;
         int startInterval = 20;
@@ -38,6 +38,46 @@ public class Main {
             deliveryDays = deliveryDays + (int) Math.ceil((deliveryDistance - startInterval) / (double) interval);
             System.out.println( "Потребуется дней " + deliveryDays);
             // очень сложно, так и не понял как делать эту задачу, помогло видел по разбору ЗД (пришлось подсматривать)
+        }
+        //задача 5
+        int monthNumber = 8;
+        switch (monthNumber) {
+            case 1:
+        System.out.println("Весна");
+        break;
+            case 2:
+        System.out.println("Весна");
+        break;
+            case 3:
+        System.out.println("Весна");
+        break;
+            case 4:
+        System.out.println("Весна");
+        break;
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+                System.out.println("Лето");
+                break;
+            case 7:
+                System.out.println("Лето");
+                break;
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+                System.out.println("Осень");
+                break;
+            case 10:
+                System.out.println("Осень");
+                break;
+            case 11:
+                System.out.println("Осень");
+                break;
+            case 12:
+                System.out.println("Зима");
+                break;
         }
     }
 }
