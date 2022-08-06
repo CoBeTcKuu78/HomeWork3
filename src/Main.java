@@ -25,5 +25,19 @@ public class Main {
        } else {
      System.out.println(year + " год не високосный");
         }
+
+        //задача 4
+        int deliveryDistance = 630;
+        int deliveryDays = 1;
+        int interval = 40;
+        int startInterval = 20;
+        if (deliveryDistance <= startInterval )
+        {
+            deliveryDays = 1;
+        } else {
+            deliveryDays = deliveryDays + (int) Math.ceil(deliveryDistance - startInterval) / interval + 1;
+            System.out.println( "Потребуется дней " + deliveryDays);
+            // очень сложно, так и не понял как делать эту задачу, помогло видел по разбору ЗД (пришлось подсматривать)
+        }
     }
 }
